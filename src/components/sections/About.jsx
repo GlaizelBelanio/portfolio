@@ -68,7 +68,7 @@ export const About = () => {
                                     Front-End Web Dev. Intern at USHER Tech. <br /> <span className="text-gray-400">(Aug. – Sept. 2024)</span>
                                 </li>
                                   <li>
-                                    AI Writng Evaluator and Trainer at Outlier <br /><span className="text-gray-400">(Sept. 2024 – March 2025)</span>
+                                    AI Writing Evaluator and Trainer at Outlier <br /><span className="text-gray-400">(Sept. 2024 – March 2025)</span>
                                 </li>
                             </ul>
 
