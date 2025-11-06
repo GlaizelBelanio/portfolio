@@ -7,6 +7,7 @@ export const Projects = () => {
             description: "The PUP Kiosk Web Application is an interactive, browser-based tool designed to enhance campus navigation for students and visitors. Featuring a dynamic map of the PUP main campus, users can intuitively hover over specific areas to reveal highlighted locations and instantly access detailed descriptions, making finding buildings and facilities effortless",
             techs: ["HTML", "CSS", "JavaScript"],
             github: "https://github.com/GlaizelBelanio/PUP-Kiosk", 
+            demo: "https://glaizelpup-kiosk.vercel.app/",
             image: "kiosk.png" 
         },
         {
@@ -51,7 +52,14 @@ export const Projects = () => {
                    
                     {projectsList.map((project) => (
                         <div className="rounded-xl p-6 border-white/20 border hover:-translate-y-1 hover:shadow-lg hover:shadow-pink-500/50 transition">
-                            <img class = "rounded-lg w-120 h-60" src={project.image} alt="thumbnail" />
+
+                            <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                                <img 
+                                className="rounded-lg w-120 h-60 cursor-pointer hover:opacity-90 transition" 
+                                src={project.image} 
+                                alt={project.title} 
+                                />
+                            </a>
                             <h3 className="text-xl font-bold- mb-4 mt-4">{project.title}</h3>
                             <p className="text-gray-400 text-justify" >{project.description}</p>
                             <p className="text-gray-400 mt-4 mb-2">Techs:</p>
