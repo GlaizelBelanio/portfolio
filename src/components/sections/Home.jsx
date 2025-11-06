@@ -14,7 +14,7 @@ export const Home = () => {
 
                 <div className="flex justify-center space-x-4"> 
                     <a 
-                    href="public/Resume.pdf" 
+                    href="/Resume.pdf" 
                     download="Resume.pdf"
                     className="bg-transparent border border-pink-600 text-pink-600 px-6 py-2 rounded-xl font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:bg-pink-600/90 hover:text-white"
                     >
